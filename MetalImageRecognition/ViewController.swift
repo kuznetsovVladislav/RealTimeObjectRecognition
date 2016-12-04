@@ -32,6 +32,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var camRan = false
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.isNavigationBarHidden = true
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        navigationController?.isNavigationBarHidden = false
+        super.viewWillDisappear(animated)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -68,7 +78,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             NSLog("invalid URL")
         }
     }
-    
 
     /**
          This function is to conform to UIImagePickerControllerDelegate protocol,
@@ -195,6 +204,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
 
         
+    }
+    
+    
+    @IBAction func backAction(_ sender: Any) {
+        _ = navigationController?.popViewController(animated: true)
     }
     
 

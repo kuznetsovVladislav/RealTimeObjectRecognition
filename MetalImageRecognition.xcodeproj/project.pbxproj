@@ -1350,7 +1350,7 @@
 				TargetAttributes = {
 					2E8111881CF927F500D4025C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = SWU45WHDKC;
+						DevelopmentTeam = M375QZ42BY;
 						DevelopmentTeamName = "Apple Inc. - Core OS Plus Others";
 						ProvisioningStyle = Automatic;
 					};
@@ -1921,7 +1921,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = SWU45WHDKC;
+				DEVELOPMENT_TEAM = M375QZ42BY;
 				INFOPLIST_FILE = MetalImageRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "che.example.apple-samplecode.MetalImageRecognition";
@@ -1942,7 +1942,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = SWU45WHDKC;
+				DEVELOPMENT_TEAM = M375QZ42BY;
 				INFOPLIST_FILE = MetalImageRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "che.example.apple-samplecode.MetalImageRecognition";

@@ -29,6 +29,7 @@ class DrawViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.isNavigationBarHidden = false
         
         clearBtn.isHidden = true
         predictionLabel.text = nil
@@ -50,6 +51,7 @@ class DrawViewController: UIViewController {
         // initialize the networks we shall use to detect digits
         network  = MNISTDeepCNN(withCommandQueue: commandQueue)
     }
+
     
     @IBAction func clearBtnTapped(sender: UIButton) {
         // clear the digitview
